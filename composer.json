@@ -1,7 +1,7 @@
 {
-    "name": "yupoxiong/region",
+    "name": "zorhand/region",
     "description": "ThinkPHP省市区(县)街道四级联动扩展",
-    "homepage": "https://github.com/yupoxiong/region",
+    "homepage": "https://github.com/zorhand/region",
     "type": "library",
     "license": "Apache-2.0",
     "keywords": [
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yupoxiong\\region\\": "src"
+            "zorhand\\region\\": "src"
         },
         "files": [
             "helper.php"
@@ -30,7 +30,7 @@
     "extra": {
         "think": {
             "services": [
-                "yupoxiong\\region\\service\\Service"
+                "zorhand\\region\\service\\Service"
             ],
             "config": {
                 "region": "config/region.php"
